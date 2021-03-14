@@ -1,0 +1,8 @@
+# ESP32 board configuration
+
+# Copyright (c) 2017 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_LILYGO_TTGO_LORA32
+	bool "LILYGO TTGO Lora32"
+	depends on SOC_ESP32
