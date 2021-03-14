@@ -33,6 +33,10 @@
 	};
 };
 
+&rtc {
+	xtal-freq = <ESP32_CLK_XTAL_26M>;
+};
+
 &cpu0 {
 	clock-frequency = <ESP32_CLK_CPU_240M>;
 };
